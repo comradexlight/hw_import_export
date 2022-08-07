@@ -1,0 +1,38 @@
+{
+  "name": "hw_import_export",
+  "version": "1.0.0",
+  "description": "import_export homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comradexlight/hw_import_export.git"
+  },
+  "keywords": [
+    "import_export"
+  ],
+  "author": "cxl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comradexlight/hw_import_export/issues"
+  },
+  "homepage": "https://github.com/comradexlight/hw_import_export#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
